@@ -1,5 +1,5 @@
 shared_examples 'redis-cli' do
-  describe package 'redis-cli' do
-    it { should be_installed }
+  describe command 'redis-cli --version' do
+    its(:exit_status) { should eq 0 }
   end
 end

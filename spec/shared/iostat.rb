@@ -1,5 +1,5 @@
 shared_examples 'iostat' do
-  describe package 'iostat' do
-    it { should be_installed }
+  describe command 'iostat' do
+    its(:exit_status) { should eq 0 }
   end
 end
