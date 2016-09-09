@@ -1,1 +1,30 @@
 apikey = "<%= @apikey %>"
+
+[plugin.metrics.linux]
+command = "/usr/local/bin/mackerel-plugin-linux"
+type = "metric"
+
+[plugin.metrics.inode]
+command = "/usr/local/bin/mackerel-plugin-inode"
+
+[plugin.metrics.multicore]
+command = "/usr/local/bin/mackerel-plugin-multicore"
+
+[plugin.metrics.nginx]
+command = "/usr/local/bin/mackerel-plugin-nginx -port=80"
+
+[plugin.metrics.mysql]
+command = "/usr/local/bin/mackerel-plugin-mysql -username isucon -password isucon"
+
+#[plugin.metrics.rack_stats]
+#command = "/usr/local/bin/mackerel-plugin-rack-stats -address=http://localhost:8080"
+
+#[plugin.metrics.unicorn]
+#command = "/usr/local/bin/mackerel-plugin-unicorn -pidfile=/home/isucon/"
+
+#[plugin.metrics.redis]
+#command = "/usr/local/bin/mackerel-plugin-redis"
+
+
+#[plugin.metrics.proc-fd]
+#command = "/usr/local/bin/mackerel-plugin-proc-fd -process='nginx'"
