@@ -7,10 +7,8 @@
 # All rights reserved - Do Not Redistribute
 #
 
-package 'iostat'
-package 'redis-cli'
+package 'redis-server'
 package 'sysstat'
-package 'bind-util'
 package 'lsof'
 package 'tcpdump'
 package 'wget'
