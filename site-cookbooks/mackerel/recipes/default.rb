@@ -7,7 +7,7 @@
 # All rights reserved - Do Not Redistribute
 #
 #
-execute 'setup mackerel yum repo' do
+execute 'setup mackerel apt repo' do
   command <<-EOS
   curl -fsSL https://mackerel.io/assets/files/scripts/setup-apt.sh | sh
   EOS
