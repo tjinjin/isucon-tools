@@ -1,5 +1,5 @@
 shared_examples 'jq' do
-  describe package 'jq' do
-    it { should be_installed }
+  describe command 'jq --version' do
+    its(:stdout) { should include('jq')}
   end
 end
