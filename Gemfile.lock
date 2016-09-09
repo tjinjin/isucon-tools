@@ -130,6 +130,7 @@ PLATFORMS
 
 DEPENDENCIES
   knife-solo
+  serverspec
 
 BUNDLED WITH
    1.11.2
