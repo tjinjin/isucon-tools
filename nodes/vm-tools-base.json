@@ -1,5 +1,6 @@
 {
         "run_list": [
-          "recipe[jq]"
+          "recipe[jq]",
+          "recipe[vim]"
     ]
 }
