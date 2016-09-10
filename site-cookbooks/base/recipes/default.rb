@@ -7,11 +7,11 @@
 # All rights reserved - Do Not Redistribute
 #
 
-package 'redis-server'
-package 'sysstat'
-package 'lsof'
-package 'tcpdump'
-package 'wget'
 package 'dstat'
 package 'iftop'
 package 'iotop'
+package 'lsof'
+package 'redis-server'
+package 'sysstat'
+package 'tcpdump'
+package 'wget'
