@@ -4,6 +4,7 @@ describe 'base' do
   it_behaves_like 'dig'
   it_behaves_like 'dstat'
   it_behaves_like 'iostat'
+  it_behaves_like 'iftop'
   it_behaves_like 'jq'
   it_behaves_like 'lsof'
   it_behaves_like 'mackerel'
