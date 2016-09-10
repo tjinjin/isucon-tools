@@ -11,7 +11,7 @@ execute 'setup mackerel apt repo' do
   command <<-EOS
   curl -fsSL https://mackerel.io/assets/files/scripts/setup-apt.sh | sh
   EOS
-  not_if { File.exist?("/etc/yum.repos.d/mackerel.repo") }
+  not_if { File.exist?("/etc/apt/sources.list.d/mackerel.list") }
 end
 
 package 'mackerel-agent'
