@@ -8,6 +8,7 @@
 #
 
 package 'dstat'
+package 'htop'
 package 'iftop'
 package 'iotop'
 package 'lsof'
