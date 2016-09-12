@@ -7,6 +7,8 @@
 # All rights reserved - Do Not Redistribute
 #
 #
+package 'unzip'
+
 pkg_version = '0.3.0'
 work_path = '/tmp'
 archive_file = 'linux_amd64.zip'
@@ -14,7 +16,7 @@ binary_file = 'kataribe'
 deploy_path = "/usr/local/bin/#{binary_file}"
 
 remote_file "#{work_path}/#{archive_file}" do
-  source "https://github.com/matsuu/kataribe/releases/download/#{pkg_version}/#{archive_file}"
+  source "https://github.com/matsuu/kataribe/releases/download/v#{pkg_version}/#{archive_file}"
   mode '0755'
   not_if { File.exist?("#{deploy_path}") }
 end

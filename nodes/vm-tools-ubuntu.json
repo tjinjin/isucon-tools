@@ -2,6 +2,7 @@
         "run_list": [
           "recipe[base]",
           "recipe[jq]",
+          "recipe[kataribe]",
           "recipe[mackerel]",
           "recipe[mackerel::setting]",
           "recipe[user]",
