@@ -4,7 +4,6 @@
           "recipe[jq]",
           "recipe[kataribe]",
           "recipe[mackerel]",
-          "recipe[mackerel::setting]",
           "recipe[user]",
           "recipe[vim]"
     ]
