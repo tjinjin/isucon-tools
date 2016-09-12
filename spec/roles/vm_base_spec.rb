@@ -13,6 +13,7 @@ describe 'base' do
   it_behaves_like 'pidstat'
   it_behaves_like 'redis-cli'
   it_behaves_like 'tcpdump'
+  it_behaves_like 'user'
   it_behaves_like 'vim'
   it_behaves_like 'wget'
 end
