@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: base
+# Cookbook Name:: tools
 # Recipe:: default
 #
 # Copyright 2016, YOUR_COMPANY_NAME
@@ -12,7 +12,6 @@ package 'htop'
 package 'iftop'
 package 'iotop'
 package 'lsof'
-package 'redis-server'
 package 'sysstat'
 package 'tcpdump'
 package 'wget'

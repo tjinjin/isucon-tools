@@ -4,6 +4,7 @@
           "recipe[jq]",
           "recipe[kataribe]",
           "recipe[mackerel]",
+          "recipe[redis]",
           "recipe[user]",
           "recipe[vim]"
     ]
