@@ -3,6 +3,7 @@ require 'spec_helper'
 describe 'base' do
   it_behaves_like 'dig'
   it_behaves_like 'dstat'
+  it_behaves_like 'emacs'
   it_behaves_like 'htop'
   it_behaves_like 'iftop'
   it_behaves_like 'iostat'

@@ -1,10 +1,11 @@
 {
         "run_list": [
-          "recipe[tools]",
+          "recipe[emacs]",
           "recipe[jq]",
           "recipe[kataribe]",
           "recipe[mackerel]",
           "recipe[redis]",
+          "recipe[tools]",
           "recipe[user]",
           "recipe[vim]"
     ]
